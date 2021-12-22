@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31402.337
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MammaNatale", "MammaNatale.csproj", "{071A3775-A34D-4BB3-B12E-F92D4FAC42A5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{071A3775-A34D-4BB3-B12E-F92D4FAC42A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{071A3775-A34D-4BB3-B12E-F92D4FAC42A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{071A3775-A34D-4BB3-B12E-F92D4FAC42A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{071A3775-A34D-4BB3-B12E-F92D4FAC42A5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {364BD3A0-2648-44C9-B6D3-68D69A6DBC66}
+	EndGlobalSection
+EndGlobal
