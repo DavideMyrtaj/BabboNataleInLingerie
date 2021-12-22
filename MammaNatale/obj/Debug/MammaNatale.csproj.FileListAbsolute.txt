@@ -1,0 +1,9 @@
+C:\Users\Studente\Desktop\MammaNatale\bin\Debug\MammaNatale.exe.config
+C:\Users\Studente\Desktop\MammaNatale\bin\Debug\MammaNatale.exe
+C:\Users\Studente\Desktop\MammaNatale\bin\Debug\MammaNatale.pdb
+C:\Users\Studente\Desktop\MammaNatale\obj\Debug\MammaNatale.csproj.AssemblyReference.cache
+C:\Users\Studente\Desktop\MammaNatale\obj\Debug\MammaNatale.Properties.Resources.resources
+C:\Users\Studente\Desktop\MammaNatale\obj\Debug\MammaNatale.csproj.GenerateResource.cache
+C:\Users\Studente\Desktop\MammaNatale\obj\Debug\MammaNatale.csproj.CoreCompileInputs.cache
+C:\Users\Studente\Desktop\MammaNatale\obj\Debug\MammaNatale.exe
+C:\Users\Studente\Desktop\MammaNatale\obj\Debug\MammaNatale.pdb
