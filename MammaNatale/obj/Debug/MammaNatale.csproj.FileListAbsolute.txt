@@ -7,3 +7,12 @@ C:\Users\Studente\Desktop\MammaNatale\obj\Debug\MammaNatale.csproj.GenerateResou
 C:\Users\Studente\Desktop\MammaNatale\obj\Debug\MammaNatale.csproj.CoreCompileInputs.cache
 C:\Users\Studente\Desktop\MammaNatale\obj\Debug\MammaNatale.exe
 C:\Users\Studente\Desktop\MammaNatale\obj\Debug\MammaNatale.pdb
+C:\Users\Davide\Desktop\repository\MammaNataleInLingerie\MammaNatale\bin\Debug\MammaNatale.exe.config
+C:\Users\Davide\Desktop\repository\MammaNataleInLingerie\MammaNatale\bin\Debug\MammaNatale.exe
+C:\Users\Davide\Desktop\repository\MammaNataleInLingerie\MammaNatale\bin\Debug\MammaNatale.pdb
+C:\Users\Davide\Desktop\repository\MammaNataleInLingerie\MammaNatale\obj\Debug\MammaNatale.csprojAssemblyReference.cache
+C:\Users\Davide\Desktop\repository\MammaNataleInLingerie\MammaNatale\obj\Debug\MammaNatale.Form1.resources
+C:\Users\Davide\Desktop\repository\MammaNataleInLingerie\MammaNatale\obj\Debug\MammaNatale.Properties.Resources.resources
+C:\Users\Davide\Desktop\repository\MammaNataleInLingerie\MammaNatale\obj\Debug\MammaNatale.csproj.GenerateResource.cache
+C:\Users\Davide\Desktop\repository\MammaNataleInLingerie\MammaNatale\obj\Debug\MammaNatale.exe
+C:\Users\Davide\Desktop\repository\MammaNataleInLingerie\MammaNatale\obj\Debug\MammaNatale.pdb

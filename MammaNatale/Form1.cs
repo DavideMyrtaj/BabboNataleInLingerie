@@ -12,15 +12,17 @@ namespace MammaNatale
 {
     public partial class Form1 : Form
     {
+        modello Modello;
         public Form1()
         {
             InitializeComponent();
-            modello modello = new modello();
+            Modello = new modello();
+
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            List<Bambino> listaBambini = Modello.BambiniNazione("AU");
         }
     }
 }
