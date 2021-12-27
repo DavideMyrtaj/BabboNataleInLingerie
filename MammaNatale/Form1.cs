@@ -24,5 +24,20 @@ namespace MammaNatale
         {
             List<Bambino> listaBambini = Modello.BambiniNazione("AU");
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            axWindowsMediaPlayer1.Ctlcontrols.play();
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            axWindowsMediaPlayer1.Ctlcontrols.pause();
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            axWindowsMediaPlayer1.Ctlcontrols.stop();
+        }
     }
 }
