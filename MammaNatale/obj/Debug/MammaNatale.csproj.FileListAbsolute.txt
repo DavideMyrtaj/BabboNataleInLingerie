@@ -31,3 +31,8 @@ C:\Users\andre\Desktop\Andrea\GitHub\MammaNataleInLingerie\MammaNatale\bin\Debug
 C:\Users\andre\Desktop\Andrea\GitHub\MammaNataleInLingerie\MammaNatale\obj\Debug\Interop.WMPLib.dll
 C:\Users\andre\Desktop\Andrea\GitHub\MammaNataleInLingerie\MammaNatale\obj\Debug\AxInterop.WMPLib.dll
 C:\Users\andre\Desktop\Andrea\GitHub\MammaNataleInLingerie\MammaNatale\obj\Debug\MammaNatale.csproj.ResolveComReference.cache
+C:\Users\Davide\Desktop\repository\MammaNataleInLingerie\MammaNatale\bin\Debug\Interop.WMPLib.dll
+C:\Users\Davide\Desktop\repository\MammaNataleInLingerie\MammaNatale\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\Davide\Desktop\repository\MammaNataleInLingerie\MammaNatale\obj\Debug\Interop.WMPLib.dll
+C:\Users\Davide\Desktop\repository\MammaNataleInLingerie\MammaNatale\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\Davide\Desktop\repository\MammaNataleInLingerie\MammaNatale\obj\Debug\MammaNatale.csproj.ResolveComReference.cache
