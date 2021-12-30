@@ -16,38 +16,9 @@ namespace AssegnaBambinoRegalo
             SqlConnection con = new SqlConnection("Data Source=.;Initial Catalog=mondo;Integrated Security=True");
             SqlCommand cmd, CMD;
             SqlDataReader leggiRegali;
-            List<BambinoRegalo> AssegnaRegali(string comando, string IDbambino)
-            {
-                List<BambinoRegalo> risultato = new List<BambinoRegalo>();
-                CMD = new SqlCommand(comando,con);
-                leggiRegali = CMD.ExecuteReader();
-                while (leggiRegali.Read())
-                {
-                    risultato.Add(new BambinoRegalo { IDbambino = IDbambino, IDregalo = leggiRegali["ID"].ToString() });
-                }
-                leggiRegali.Close();
-                return risultato;
-            }
-            BambinoRegalo Speciale(string comando, string IDbambino)
-            {
-                BambinoRegalo bambino= new BambinoRegalo();
-                CMD = new SqlCommand(comando,con);
-                leggiRegali = CMD.ExecuteReader();
-                while (leggiRegali.Read())
-                {
-                     bambino= new BambinoRegalo { IDbambino = IDbambino, IDregalo = leggiRegali["ID"].ToString() };
-                }
-                leggiRegali.Close();
-                return bambino;
-                
-            }
-            void InsericiBambinoRegalo(List<BambinoRegalo> bambinoRegalos)
-            {
-                string inserimentoRegali = "INSERT INTO BAMBINO_REGALO (ID_BAMBINO,ID_REGALO) VALUES ";
-                inserimentoRegali += string.Join(",", bambinoRegalos);
-                CMD = new SqlCommand(inserimentoRegali, con);
-                CMD.ExecuteNonQuery();
-            }
+            
+            
+            
 
             try
             {
@@ -62,47 +33,106 @@ namespace AssegnaBambinoRegalo
 
 
 
-            string query = "SELECT ID,BONTA FROM BAMBINO";
+
+            string query = "SELECT ID,BONTA from BAMBINO left join BAMBINO_REGALO on BAMBINO.ID = BAMBINO_REGALO.ID_BAMBINO WHERE BAMBINO_REGALO.ID_BAMBINO IS NULL;";
             cmd = new SqlCommand(query, con);
             SqlDataReader reader = cmd.ExecuteReader();
             List<BambinoRegalo> inserimento;
-            List < Bambino> IDBAMBINI = new List<Bambino>();
+            List <Bambino> IDBAMBINI = new List<Bambino>();
             while (reader.Read())
             {
                 IDBAMBINI.Add(new Bambino { ID=reader["ID"].ToString(), Bonta=(int)reader["BONTA"]});
             
             }
             reader.Close();
+
+
+            query = "SELECT ID FROM REGALO WHERE SPECIALE IS NULL";
+            cmd = new SqlCommand(query, con);
+            reader = cmd.ExecuteReader();
+            List<string> RegaliNormali= new List<string>();
+            while (reader.Read())
+            {
+                RegaliNormali.Add(reader["ID"].ToString());
+
+            }
+            reader.Close();
+
+            query = "SELECT ID,SPECIALE FROM REGALO WHERE SPECIALE IS NOT NULL";
+            cmd = new SqlCommand(query, con);
+            reader = cmd.ExecuteReader();
+            List<RegaloSpeciale> RegaloSpeciale= new List<RegaloSpeciale>();
+            while (reader.Read())
+            {
+                RegaloSpeciale.Add(new RegaloSpeciale { ID = reader["ID"].ToString(), Speciale = reader["SPECIALE"].ToString() });
+
+            }
+            reader.Close();
+
+
+            string inserimentoRegali;
+            List<BambinoRegalo> DaInserire = new List<BambinoRegalo>();
             foreach (Bambino bambino in IDBAMBINI)
             {
+                if (DaInserire.Count>996)
+                {
+                    inserimentoRegali = "INSERT INTO BAMBINO_REGALO (ID_BAMBINO,ID_REGALO) VALUES ";
+                    inserimentoRegali += string.Join(",", DaInserire);
+                    CMD = new SqlCommand(inserimentoRegali, con);
+                    CMD.ExecuteNonQuery();
+                    DaInserire = new List<BambinoRegalo>();
+                }
+                Random r = new Random();
+               
+                RegaliNormali=RegaliNormali.OrderBy(x => r.Next()).ToList();
 
 
-                
-                
                 switch (bambino.Bonta)
                 {
                     case int n when n ==100:
-                        inserimento = AssegnaRegali("SELECT TOP 3 ID FROM REGALO WHERE SPECIALE IS NULL ORDER BY NEWID()", bambino.ID);
-                        inserimento.Add(Speciale("SELECT ID FROM REGALO WHERE SPECIALE='ORSO'", bambino.ID));
-                        InsericiBambinoRegalo(inserimento);
+
+                        for (int i = 0; i < 3; i++)
+                        {
+                            DaInserire.Add(new BambinoRegalo {IDbambino=bambino.ID, IDregalo=RegaliNormali[i]});
+                        }
+                        DaInserire.Add(new BambinoRegalo { IDbambino=bambino.ID,IDregalo=RegaloSpeciale.Find(x=> x.Speciale=="ORSO").ID});
+                        
+                        
                         break;
                     case int n when n >= 70 & n < 100:
-                        inserimento = AssegnaRegali("SELECT TOP 3 ID FROM REGALO WHERE SPECIALE IS NULL ORDER BY NEWID()", bambino.ID);
-                        InsericiBambinoRegalo(inserimento);
+                        for (int i = 0; i < 3; i++)
+                        {
+                            DaInserire.Add(new BambinoRegalo { IDbambino = bambino.ID, IDregalo = RegaliNormali[i] });
+                        }
+                       
                         break;
                     case int n when n >= 40 & n < 70:
-                        inserimento = AssegnaRegali("SELECT TOP 2 ID FROM REGALO WHERE SPECIALE IS NULL ORDER BY NEWID()", bambino.ID);
-                        InsericiBambinoRegalo(inserimento);
+                        for (int i = 0; i < 2; i++)
+                        {
+                            DaInserire.Add(new BambinoRegalo { IDbambino = bambino.ID, IDregalo = RegaliNormali[i] });
+                        }
+                       
                         break;
                     case int n when n >= 10 & n < 40:
-                        inserimento = AssegnaRegali("SELECT TOP 1 ID FROM REGALO WHERE SPECIALE IS NULL ORDER BY NEWID()", bambino.ID);
-                        InsericiBambinoRegalo(inserimento);
+                        for (int i = 0; i < 1; i++)
+                        {
+                            DaInserire.Add(new BambinoRegalo { IDbambino = bambino.ID, IDregalo = RegaliNormali[i] });
+                        }
+                        
                         break;
                     case int n when n < 10:
-                        inserimento = AssegnaRegali("SELECT ID FROM REGALO WHERE SPECIALE='CARBONE'", bambino.ID);
-                        InsericiBambinoRegalo(inserimento);
+                        DaInserire.Add(new BambinoRegalo { IDbambino = bambino.ID, IDregalo = RegaloSpeciale.Find(x => x.Speciale == "CARBONE").ID });
+
                         break;
                 }
+            }
+            if (DaInserire.Count>0)
+            {
+                inserimentoRegali = "INSERT INTO BAMBINO_REGALO (ID_BAMBINO,ID_REGALO) VALUES ";
+                inserimentoRegali += string.Join(",", DaInserire);
+                CMD = new SqlCommand(inserimentoRegali, con);
+                CMD.ExecuteNonQuery();
+                
             }
             
         }
@@ -121,5 +151,9 @@ namespace AssegnaBambinoRegalo
             return $"('{IDbambino}','{IDregalo.Replace("'","''")}')";
         }
     }
-
+    class RegaloSpeciale
+    {
+        public string ID;
+        public string Speciale;
+    }
 }
