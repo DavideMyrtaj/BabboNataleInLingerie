@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Data.SqlClient;
 using System.Windows.Forms;
-
+using System.Data;
 namespace MammaNatale
 {
     class modello
@@ -13,6 +13,7 @@ namespace MammaNatale
         SqlConnection con;
         SqlCommand cmd;
         SqlDataReader leggi;
+        DataTable table;
         public modello()
         {
             con = new SqlConnection(@"Data Source=.;Initial Catalog=mondo;Integrated Security=True");
@@ -32,17 +33,52 @@ namespace MammaNatale
         /// </summary>
         /// <param name="Nazione"></param>
         /// <returns></returns>
-        public List<Bambino> BambiniNazione(string Nazione)
+        public DataTable BambiniNazioneConRegali(string Nazione)
         {
             List<Bambino> lista = new List<Bambino>();
-            string query = $"SELECT * FROM BAMBINO WHERE NAZIONE='{Nazione}'";
+            string query = $@"SELECT BAMBINO.ID, BAMBINO.NOME ,BAMBINO.COGNOME,BAMBINO_REGALO.ID_REGALO,REGALO.TIPO ,REGALO.DESCRIZIONE  FROM BAMBINO  
+inner join BAMBINO_REGALO on BAMBINO.ID = BAMBINO_REGALO.ID_BAMBINO
+INNER JOIN REGALO on BAMBINO_REGALO.ID_REGALO = REGALO.ID
+WHERE BAMBINO.NAZIONE = '{Nazione}'
+ORDER BY BAMBINO.ID ";
             cmd = new SqlCommand(query, con);
             leggi=cmd.ExecuteReader();
+            table = new DataTable();
+            table.Load(leggi);
+            leggi.Close();
+           
+            return table;
+        }
 
+        /// <summary>
+        /// restituisce una lista ordinata per latitudine, crescente o decrescente, di tutti i paesi di quel fuso orario
+        /// </summary>
+        /// <param name="TimeZone"></param>
+        /// <param name="ordine"></param>
+        /// <returns></returns>
+        public List<Nazione> ListaNazioniFusoOrarioOrdinate(int TimeZone, string ordine)
+        {
+            List<Nazione> Nazioni = new List<Nazione>();
+            cmd = new SqlCommand($"SELECT ora.NAZIONE,ora.TIME_ZONE, NAZIONE.NOME,NAZIONE.LATITUDINE  FROM FUSO_ORARIO as ora inner join NAZIONE on ora.NAZIONE = NAZIONE.CODICE AND ora.TIME_ZONE = '{TimeZone}' ORDER BY NAZIONE.LATITUDINE {ordine}", con);
+            leggi = cmd.ExecuteReader();
             while (leggi.Read())
             {
-                lista.Add(new Bambino {Nome=leggi["NOME"].ToString(),Cognome=leggi["COGNOME"].ToString(),Data_Nascita=DateTime.Parse(leggi["DATA_NASCITA"].ToString()),Bonta=int.Parse( leggi["BONTA"].ToString()),Nazione=leggi["NAZIONE"].ToString() });
+                Nazioni.Add(new Nazione { Codice=leggi["NAZIONE"].ToString(),Nome=leggi["NOME"].ToString()});
             }
+            leggi.Close();
+            return Nazioni;
+        }
+
+        public List<int> ListaFusiOrariEsistenti()
+        {
+            List<int> lista = new List<int>();
+            cmd = new SqlCommand("SELECT DISTINCT TIME_ZONE from FUSO_ORARIO order by TIME_ZONE DESC", con);
+            leggi = cmd.ExecuteReader();
+            while (leggi.Read())
+            {
+                lista.Add((int)leggi["TIME_ZONE"]);
+            }
+            leggi.Close();
             return lista;
         }
 
@@ -54,5 +90,10 @@ namespace MammaNatale
         public DateTime Data_Nascita;
         public int Bonta;
         public string Nazione;
+    }
+    class Nazione
+    {
+        public string Codice;
+        public string Nome;
     }
 }

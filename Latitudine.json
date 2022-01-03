@@ -1,0 +1,2422 @@
+[
+  {
+    "Code": "AD",
+    "Latitude": 42.546245,
+    "Longitude": 1.601554,
+    "country": "Andorra",
+    "usa_state_code": "AK",
+    "usa_state_latitude": 63.588753,
+    "usa_state_longitude": -154.493062,
+    "usa_state": "Alaska"
+  },
+  {
+    "Code": "AE",
+    "Latitude": 23.424076,
+    "Longitude": 53.847818,
+    "country": "United Arab Emirates",
+    "usa_state_code": "AL",
+    "usa_state_latitude": 32.318231,
+    "usa_state_longitude": -86.902298,
+    "usa_state": "Alabama"
+  },
+  {
+    "Code": "AF",
+    "Latitude": 33.93911,
+    "Longitude": 67.709953,
+    "country": "Afghanistan",
+    "usa_state_code": "AR",
+    "usa_state_latitude": 35.20105,
+    "usa_state_longitude": -91.831833,
+    "usa_state": "Arkansas"
+  },
+  {
+    "Code": "AG",
+    "Latitude": 17.060816,
+    "Longitude": -61.796428,
+    "country": "Antigua and Barbuda",
+    "usa_state_code": "AZ",
+    "usa_state_latitude": 34.048928,
+    "usa_state_longitude": -111.093731,
+    "usa_state": "Arizona"
+  },
+  {
+    "Code": "AI",
+    "Latitude": 18.220554,
+    "Longitude": -63.068615,
+    "country": "Anguilla",
+    "usa_state_code": "CA",
+    "usa_state_latitude": 36.778261,
+    "usa_state_longitude": -119.417932,
+    "usa_state": "California"
+  },
+  {
+    "Code": "AL",
+    "Latitude": 41.153332,
+    "Longitude": 20.168331,
+    "country": "Albania",
+    "usa_state_code": "CO",
+    "usa_state_latitude": 39.550051,
+    "usa_state_longitude": -105.782067,
+    "usa_state": "Colorado"
+  },
+  {
+    "Code": "AM",
+    "Latitude": 40.069099,
+    "Longitude": 45.038189,
+    "country": "Armenia",
+    "usa_state_code": "CT",
+    "usa_state_latitude": 41.603221,
+    "usa_state_longitude": -73.087749,
+    "usa_state": "Connecticut"
+  },
+  {
+    "Code": "AN",
+    "Latitude": 12.226079,
+    "Longitude": -69.060087,
+    "country": "Netherlands Antilles",
+    "usa_state_code": "DC",
+    "usa_state_latitude": 38.905985,
+    "usa_state_longitude": -77.033418,
+    "usa_state": "District of Columbia"
+  },
+  {
+    "Code": "AO",
+    "Latitude": -11.202692,
+    "Longitude": 17.873887,
+    "country": "Angola",
+    "usa_state_code": "DE",
+    "usa_state_latitude": 38.910832,
+    "usa_state_longitude": -75.52767,
+    "usa_state": "Delaware"
+  },
+  {
+    "Code": "AQ",
+    "Latitude": -75.250973,
+    "Longitude": -0.071389,
+    "country": "Antarctica",
+    "usa_state_code": "FL",
+    "usa_state_latitude": 27.664827,
+    "usa_state_longitude": -81.515754,
+    "usa_state": "Florida"
+  },
+  {
+    "Code": "AR",
+    "Latitude": -38.416097,
+    "Longitude": -63.616672,
+    "country": "Argentina",
+    "usa_state_code": "GA",
+    "usa_state_latitude": 32.157435,
+    "usa_state_longitude": -82.907123,
+    "usa_state": "Georgia"
+  },
+  {
+    "Code": "AS",
+    "Latitude": -14.270972,
+    "Longitude": -170.132217,
+    "country": "American Samoa",
+    "usa_state_code": "HI",
+    "usa_state_latitude": 19.898682,
+    "usa_state_longitude": -155.665857,
+    "usa_state": "Hawaii"
+  },
+  {
+    "Code": "AT",
+    "Latitude": 47.516231,
+    "Longitude": 14.550072,
+    "country": "Austria",
+    "usa_state_code": "IA",
+    "usa_state_latitude": 41.878003,
+    "usa_state_longitude": -93.097702,
+    "usa_state": "Iowa"
+  },
+  {
+    "Code": "AU",
+    "Latitude": -25.274398,
+    "Longitude": 133.775136,
+    "country": "Australia",
+    "usa_state_code": "ID",
+    "usa_state_latitude": 44.068202,
+    "usa_state_longitude": -114.742041,
+    "usa_state": "Idaho"
+  },
+  {
+    "Code": "AW",
+    "Latitude": 12.52111,
+    "Longitude": -69.968338,
+    "country": "Aruba",
+    "usa_state_code": "IL",
+    "usa_state_latitude": 40.633125,
+    "usa_state_longitude": -89.398528,
+    "usa_state": "Illinois"
+  },
+  {
+    "Code": "AZ",
+    "Latitude": 40.143105,
+    "Longitude": 47.576927,
+    "country": "Azerbaijan",
+    "usa_state_code": "IN",
+    "usa_state_latitude": 40.551217,
+    "usa_state_longitude": -85.602364,
+    "usa_state": "Indiana"
+  },
+  {
+    "Code": "BA",
+    "Latitude": 43.915886,
+    "Longitude": 17.679076,
+    "country": "Bosnia and Herzegovina",
+    "usa_state_code": "KS",
+    "usa_state_latitude": 39.011902,
+    "usa_state_longitude": -98.484246,
+    "usa_state": "Kansas"
+  },
+  {
+    "Code": "BB",
+    "Latitude": 13.193887,
+    "Longitude": -59.543198,
+    "country": "Barbados",
+    "usa_state_code": "KY",
+    "usa_state_latitude": 37.839333,
+    "usa_state_longitude": -84.270018,
+    "usa_state": "Kentucky"
+  },
+  {
+    "Code": "BD",
+    "Latitude": 23.684994,
+    "Longitude": 90.356331,
+    "country": "Bangladesh",
+    "usa_state_code": "LA",
+    "usa_state_latitude": 31.244823,
+    "usa_state_longitude": -92.145024,
+    "usa_state": "Louisiana"
+  },
+  {
+    "Code": "BE",
+    "Latitude": 50.503887,
+    "Longitude": 4.469936,
+    "country": "Belgium",
+    "usa_state_code": "MA",
+    "usa_state_latitude": 42.407211,
+    "usa_state_longitude": -71.382437,
+    "usa_state": "Massachusetts"
+  },
+  {
+    "Code": "BF",
+    "Latitude": 12.238333,
+    "Longitude": -1.561593,
+    "country": "Burkina Faso",
+    "usa_state_code": "MD",
+    "usa_state_latitude": 39.045755,
+    "usa_state_longitude": -76.641271,
+    "usa_state": "Maryland"
+  },
+  {
+    "Code": "BG",
+    "Latitude": 42.733883,
+    "Longitude": 25.48583,
+    "country": "Bulgaria",
+    "usa_state_code": "ME",
+    "usa_state_latitude": 45.253783,
+    "usa_state_longitude": -69.445469,
+    "usa_state": "Maine"
+  },
+  {
+    "Code": "BH",
+    "Latitude": 25.930414,
+    "Longitude": 50.637772,
+    "country": "Bahrain",
+    "usa_state_code": "MI",
+    "usa_state_latitude": 44.314844,
+    "usa_state_longitude": -85.602364,
+    "usa_state": "Michigan"
+  },
+  {
+    "Code": "BI",
+    "Latitude": -3.373056,
+    "Longitude": 29.918886,
+    "country": "Burundi",
+    "usa_state_code": "MN",
+    "usa_state_latitude": 46.729553,
+    "usa_state_longitude": -94.6859,
+    "usa_state": "Minnesota"
+  },
+  {
+    "Code": "BJ",
+    "Latitude": 9.30769,
+    "Longitude": 2.315834,
+    "country": "Benin",
+    "usa_state_code": "MO",
+    "usa_state_latitude": 37.964253,
+    "usa_state_longitude": -91.831833,
+    "usa_state": "Missouri"
+  },
+  {
+    "Code": "BM",
+    "Latitude": 32.321384,
+    "Longitude": -64.75737,
+    "country": "Bermuda",
+    "usa_state_code": "MS",
+    "usa_state_latitude": 32.354668,
+    "usa_state_longitude": -89.398528,
+    "usa_state": "Mississippi"
+  },
+  {
+    "Code": "BN",
+    "Latitude": 4.535277,
+    "Longitude": 114.727669,
+    "country": "Brunei",
+    "usa_state_code": "MT",
+    "usa_state_latitude": 46.879682,
+    "usa_state_longitude": -110.362566,
+    "usa_state": "Montana"
+  },
+  {
+    "Code": "BO",
+    "Latitude": -16.290154,
+    "Longitude": -63.588653,
+    "country": "Bolivia",
+    "usa_state_code": "NC",
+    "usa_state_latitude": 35.759573,
+    "usa_state_longitude": -79.0193,
+    "usa_state": "North Carolina"
+  },
+  {
+    "Code": "BR",
+    "Latitude": -14.235004,
+    "Longitude": -51.92528,
+    "country": "Brazil",
+    "usa_state_code": "ND",
+    "usa_state_latitude": 47.551493,
+    "usa_state_longitude": -101.002012,
+    "usa_state": "North Dakota"
+  },
+  {
+    "Code": "BS",
+    "Latitude": 25.03428,
+    "Longitude": -77.39628,
+    "country": "Bahamas",
+    "usa_state_code": "NE",
+    "usa_state_latitude": 41.492537,
+    "usa_state_longitude": -99.901813,
+    "usa_state": "Nebraska"
+  },
+  {
+    "Code": "BT",
+    "Latitude": 27.514162,
+    "Longitude": 90.433601,
+    "country": "Bhutan",
+    "usa_state_code": "NH",
+    "usa_state_latitude": 43.193852,
+    "usa_state_longitude": -71.572395,
+    "usa_state": "New Hampshire"
+  },
+  {
+    "Code": "BV",
+    "Latitude": -54.423199,
+    "Longitude": 3.413194,
+    "country": "Bouvet Island",
+    "usa_state_code": "NJ",
+    "usa_state_latitude": 40.058324,
+    "usa_state_longitude": -74.405661,
+    "usa_state": "New Jersey"
+  },
+  {
+    "Code": "BW",
+    "Latitude": -22.328474,
+    "Longitude": 24.684866,
+    "country": "Botswana",
+    "usa_state_code": "NM",
+    "usa_state_latitude": 34.97273,
+    "usa_state_longitude": -105.032363,
+    "usa_state": "New Mexico"
+  },
+  {
+    "Code": "BY",
+    "Latitude": 53.709807,
+    "Longitude": 27.953389,
+    "country": "Belarus",
+    "usa_state_code": "NV",
+    "usa_state_latitude": 38.80261,
+    "usa_state_longitude": -116.419389,
+    "usa_state": "Nevada"
+  },
+  {
+    "Code": "BZ",
+    "Latitude": 17.189877,
+    "Longitude": -88.49765,
+    "country": "Belize",
+    "usa_state_code": "NY",
+    "usa_state_latitude": 43.299428,
+    "usa_state_longitude": -74.217933,
+    "usa_state": "New York"
+  },
+  {
+    "Code": "CA",
+    "Latitude": 56.130366,
+    "Longitude": -106.346771,
+    "country": "Canada",
+    "usa_state_code": "OH",
+    "usa_state_latitude": 40.417287,
+    "usa_state_longitude": -82.907123,
+    "usa_state": "Ohio"
+  },
+  {
+    "Code": "CC",
+    "Latitude": -12.164165,
+    "Longitude": 96.870956,
+    "country": "Cocos [Keeling] Islands",
+    "usa_state_code": "OK",
+    "usa_state_latitude": 35.007752,
+    "usa_state_longitude": -97.092877,
+    "usa_state": "Oklahoma"
+  },
+  {
+    "Code": "CD",
+    "Latitude": -4.038333,
+    "Longitude": 21.758664,
+    "country": "Congo [DRC]",
+    "usa_state_code": "OR",
+    "usa_state_latitude": 43.804133,
+    "usa_state_longitude": -120.554201,
+    "usa_state": "Oregon"
+  },
+  {
+    "Code": "CF",
+    "Latitude": 6.611111,
+    "Longitude": 20.939444,
+    "country": "Central African Republic",
+    "usa_state_code": "PA",
+    "usa_state_latitude": 41.203322,
+    "usa_state_longitude": -77.194525,
+    "usa_state": "Pennsylvania"
+  },
+  {
+    "Code": "CG",
+    "Latitude": -0.228021,
+    "Longitude": 15.827659,
+    "country": "Congo [Republic]",
+    "usa_state_code": "PR",
+    "usa_state_latitude": 18.220833,
+    "usa_state_longitude": -66.590149,
+    "usa_state": "Puerto Rico"
+  },
+  {
+    "Code": "CH",
+    "Latitude": 46.818188,
+    "Longitude": 8.227512,
+    "country": "Switzerland",
+    "usa_state_code": "RI",
+    "usa_state_latitude": 41.580095,
+    "usa_state_longitude": -71.477429,
+    "usa_state": "Rhode Island"
+  },
+  {
+    "Code": "CI",
+    "Latitude": 7.539989,
+    "Longitude": -5.54708,
+    "country": "Côte d'Ivoire",
+    "usa_state_code": "SC",
+    "usa_state_latitude": 33.836081,
+    "usa_state_longitude": -81.163725,
+    "usa_state": "South Carolina"
+  },
+  {
+    "Code": "CK",
+    "Latitude": -21.236736,
+    "Longitude": -159.777671,
+    "country": "Cook Islands",
+    "usa_state_code": "SD",
+    "usa_state_latitude": 43.969515,
+    "usa_state_longitude": -99.901813,
+    "usa_state": "South Dakota"
+  },
+  {
+    "Code": "CL",
+    "Latitude": -35.675147,
+    "Longitude": -71.542969,
+    "country": "Chile",
+    "usa_state_code": "TN",
+    "usa_state_latitude": 35.517491,
+    "usa_state_longitude": -86.580447,
+    "usa_state": "Tennessee"
+  },
+  {
+    "Code": "CM",
+    "Latitude": 7.369722,
+    "Longitude": 12.354722,
+    "country": "Cameroon",
+    "usa_state_code": "TX",
+    "usa_state_latitude": 31.968599,
+    "usa_state_longitude": -99.901813,
+    "usa_state": "Texas"
+  },
+  {
+    "Code": "CN",
+    "Latitude": 35.86166,
+    "Longitude": 104.195397,
+    "country": "China",
+    "usa_state_code": "UT",
+    "usa_state_latitude": 39.32098,
+    "usa_state_longitude": -111.093731,
+    "usa_state": "Utah"
+  },
+  {
+    "Code": "CO",
+    "Latitude": 4.570868,
+    "Longitude": -74.297333,
+    "country": "Colombia",
+    "usa_state_code": "VA",
+    "usa_state_latitude": 37.431573,
+    "usa_state_longitude": -78.656894,
+    "usa_state": "Virginia"
+  },
+  {
+    "Code": "CR",
+    "Latitude": 9.748917,
+    "Longitude": -83.753428,
+    "country": "Costa Rica",
+    "usa_state_code": "VT",
+    "usa_state_latitude": 44.558803,
+    "usa_state_longitude": -72.577841,
+    "usa_state": "Vermont"
+  },
+  {
+    "Code": "CU",
+    "Latitude": 21.521757,
+    "Longitude": -77.781167,
+    "country": "Cuba",
+    "usa_state_code": "WA",
+    "usa_state_latitude": 47.751074,
+    "usa_state_longitude": -120.740139,
+    "usa_state": "Washington"
+  },
+  {
+    "Code": "CV",
+    "Latitude": 16.002082,
+    "Longitude": -24.013197,
+    "country": "Cape Verde",
+    "usa_state_code": "WI",
+    "usa_state_latitude": 43.78444,
+    "usa_state_longitude": -88.787868,
+    "usa_state": "Wisconsin"
+  },
+  {
+    "Code": "CX",
+    "Latitude": -10.447525,
+    "Longitude": 105.690449,
+    "country": "Christmas Island",
+    "usa_state_code": "WV",
+    "usa_state_latitude": 38.597626,
+    "usa_state_longitude": -80.454903,
+    "usa_state": "West Virginia"
+  },
+  {
+    "Code": "CY",
+    "Latitude": 35.126413,
+    "Longitude": 33.429859,
+    "country": "Cyprus",
+    "usa_state_code": "WY",
+    "usa_state_latitude": 43.075968,
+    "usa_state_longitude": -107.290284,
+    "usa_state": "Wyoming"
+  },
+  {
+    "Code": "CZ",
+    "Latitude": 49.817492,
+    "Longitude": 15.472962,
+    "country": "Czech Republic",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "DE",
+    "Latitude": 51.165691,
+    "Longitude": 10.451526,
+    "country": "Germany",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "DJ",
+    "Latitude": 11.825138,
+    "Longitude": 42.590275,
+    "country": "Djibouti",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "DK",
+    "Latitude": 56.26392,
+    "Longitude": 9.501785,
+    "country": "Denmark",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "DM",
+    "Latitude": 15.414999,
+    "Longitude": -61.370976,
+    "country": "Dominica",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "DO",
+    "Latitude": 18.735693,
+    "Longitude": -70.162651,
+    "country": "Dominican Republic",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "DZ",
+    "Latitude": 28.033886,
+    "Longitude": 1.659626,
+    "country": "Algeria",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "EC",
+    "Latitude": -1.831239,
+    "Longitude": -78.183406,
+    "country": "Ecuador",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "EE",
+    "Latitude": 58.595272,
+    "Longitude": 25.013607,
+    "country": "Estonia",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "EG",
+    "Latitude": 26.820553,
+    "Longitude": 30.802498,
+    "country": "Egypt",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "EH",
+    "Latitude": 24.215527,
+    "Longitude": -12.885834,
+    "country": "Western Sahara",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "ER",
+    "Latitude": 15.179384,
+    "Longitude": 39.782334,
+    "country": "Eritrea",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "ES",
+    "Latitude": 40.463667,
+    "Longitude": -3.74922,
+    "country": "Spain",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "ET",
+    "Latitude": 9.145,
+    "Longitude": 40.489673,
+    "country": "Ethiopia",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "FI",
+    "Latitude": 61.92411,
+    "Longitude": 25.748151,
+    "country": "Finland",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "FJ",
+    "Latitude": -16.578193,
+    "Longitude": 179.414413,
+    "country": "Fiji",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "FK",
+    "Latitude": -51.796253,
+    "Longitude": -59.523613,
+    "country": "Falkland Islands [Islas Malvinas]",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "FM",
+    "Latitude": 7.425554,
+    "Longitude": 150.550812,
+    "country": "Micronesia",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "FO",
+    "Latitude": 61.892635,
+    "Longitude": -6.911806,
+    "country": "Faroe Islands",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "FR",
+    "Latitude": 46.227638,
+    "Longitude": 2.213749,
+    "country": "France",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "GA",
+    "Latitude": -0.803689,
+    "Longitude": 11.609444,
+    "country": "Gabon",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "GB",
+    "Latitude": 55.378051,
+    "Longitude": -3.435973,
+    "country": "United Kingdom",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "GD",
+    "Latitude": 12.262776,
+    "Longitude": -61.604171,
+    "country": "Grenada",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "GE",
+    "Latitude": 42.315407,
+    "Longitude": 43.356892,
+    "country": "Georgia",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "GF",
+    "Latitude": 3.933889,
+    "Longitude": -53.125782,
+    "country": "French Guiana",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "GG",
+    "Latitude": 49.465691,
+    "Longitude": -2.585278,
+    "country": "Guernsey",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "GH",
+    "Latitude": 7.946527,
+    "Longitude": -1.023194,
+    "country": "Ghana",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "GI",
+    "Latitude": 36.137741,
+    "Longitude": -5.345374,
+    "country": "Gibraltar",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "GL",
+    "Latitude": 71.706936,
+    "Longitude": -42.604303,
+    "country": "Greenland",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "GM",
+    "Latitude": 13.443182,
+    "Longitude": -15.310139,
+    "country": "Gambia",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "GN",
+    "Latitude": 9.945587,
+    "Longitude": -9.696645,
+    "country": "Guinea",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "GP",
+    "Latitude": 16.995971,
+    "Longitude": -62.067641,
+    "country": "Guadeloupe",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "GQ",
+    "Latitude": 1.650801,
+    "Longitude": 10.267895,
+    "country": "Equatorial Guinea",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "GR",
+    "Latitude": 39.074208,
+    "Longitude": 21.824312,
+    "country": "Greece",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "GS",
+    "Latitude": -54.429579,
+    "Longitude": -36.587909,
+    "country": "South Georgia and the South Sandwich Islands",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "GT",
+    "Latitude": 15.783471,
+    "Longitude": -90.230759,
+    "country": "Guatemala",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "GU",
+    "Latitude": 13.444304,
+    "Longitude": 144.793731,
+    "country": "Guam",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "GW",
+    "Latitude": 11.803749,
+    "Longitude": -15.180413,
+    "country": "Guinea-Bissau",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "GY",
+    "Latitude": 4.860416,
+    "Longitude": -58.93018,
+    "country": "Guyana",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "HK",
+    "Latitude": 22.396428,
+    "Longitude": 114.109497,
+    "country": "Hong Kong",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "HM",
+    "Latitude": -53.08181,
+    "Longitude": 73.504158,
+    "country": "Heard Island and McDonald Islands",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "HN",
+    "Latitude": 15.199999,
+    "Longitude": -86.241905,
+    "country": "Honduras",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "HR",
+    "Latitude": 45.1,
+    "Longitude": 15.2,
+    "country": "Croatia",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "HT",
+    "Latitude": 18.971187,
+    "Longitude": -72.285215,
+    "country": "Haiti",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "HU",
+    "Latitude": 47.162494,
+    "Longitude": 19.503304,
+    "country": "Hungary",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "ID",
+    "Latitude": -0.789275,
+    "Longitude": 113.921327,
+    "country": "Indonesia",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "IE",
+    "Latitude": 53.41291,
+    "Longitude": -8.24389,
+    "country": "Ireland",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "IL",
+    "Latitude": 31.046051,
+    "Longitude": 34.851612,
+    "country": "Israel",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "IM",
+    "Latitude": 54.236107,
+    "Longitude": -4.548056,
+    "country": "Isle of Man",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "IN",
+    "Latitude": 20.593684,
+    "Longitude": 78.96288,
+    "country": "India",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "IO",
+    "Latitude": -6.343194,
+    "Longitude": 71.876519,
+    "country": "British Indian Ocean Territory",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "IQ",
+    "Latitude": 33.223191,
+    "Longitude": 43.679291,
+    "country": "Iraq",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "IR",
+    "Latitude": 32.427908,
+    "Longitude": 53.688046,
+    "country": "Iran",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "IS",
+    "Latitude": 64.963051,
+    "Longitude": -19.020835,
+    "country": "Iceland",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "IT",
+    "Latitude": 41.87194,
+    "Longitude": 12.56738,
+    "country": "Italy",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "JE",
+    "Latitude": 49.214439,
+    "Longitude": -2.13125,
+    "country": "Jersey",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "JM",
+    "Latitude": 18.109581,
+    "Longitude": -77.297508,
+    "country": "Jamaica",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "JO",
+    "Latitude": 30.585164,
+    "Longitude": 36.238414,
+    "country": "Jordan",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "JP",
+    "Latitude": 36.204824,
+    "Longitude": 138.252924,
+    "country": "Japan",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "KE",
+    "Latitude": -0.023559,
+    "Longitude": 37.906193,
+    "country": "Kenya",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "KG",
+    "Latitude": 41.20438,
+    "Longitude": 74.766098,
+    "country": "Kyrgyzstan",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "KH",
+    "Latitude": 12.565679,
+    "Longitude": 104.990963,
+    "country": "Cambodia",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "KI",
+    "Latitude": -3.370417,
+    "Longitude": -168.734039,
+    "country": "Kiribati",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "KM",
+    "Latitude": -11.875001,
+    "Longitude": 43.872219,
+    "country": "Comoros",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "KN",
+    "Latitude": 17.357822,
+    "Longitude": -62.782998,
+    "country": "Saint Kitts and Nevis",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "KP",
+    "Latitude": 40.339852,
+    "Longitude": 127.510093,
+    "country": "North Korea",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "KR",
+    "Latitude": 35.907757,
+    "Longitude": 127.766922,
+    "country": "South Korea",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "KW",
+    "Latitude": 29.31166,
+    "Longitude": 47.481766,
+    "country": "Kuwait",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "KY",
+    "Latitude": 19.513469,
+    "Longitude": -80.566956,
+    "country": "Cayman Islands",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "KZ",
+    "Latitude": 48.019573,
+    "Longitude": 66.923684,
+    "country": "Kazakhstan",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "LA",
+    "Latitude": 19.85627,
+    "Longitude": 102.495496,
+    "country": "Laos",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "LB",
+    "Latitude": 33.854721,
+    "Longitude": 35.862285,
+    "country": "Lebanon",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "LC",
+    "Latitude": 13.909444,
+    "Longitude": -60.978893,
+    "country": "Saint Lucia",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "LI",
+    "Latitude": 47.166,
+    "Longitude": 9.555373,
+    "country": "Liechtenstein",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "LK",
+    "Latitude": 7.873054,
+    "Longitude": 80.771797,
+    "country": "Sri Lanka",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "LR",
+    "Latitude": 6.428055,
+    "Longitude": -9.429499,
+    "country": "Liberia",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "LS",
+    "Latitude": -29.609988,
+    "Longitude": 28.233608,
+    "country": "Lesotho",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "LT",
+    "Latitude": 55.169438,
+    "Longitude": 23.881275,
+    "country": "Lithuania",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "LU",
+    "Latitude": 49.815273,
+    "Longitude": 6.129583,
+    "country": "Luxembourg",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "LV",
+    "Latitude": 56.879635,
+    "Longitude": 24.603189,
+    "country": "Latvia",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "LY",
+    "Latitude": 26.3351,
+    "Longitude": 17.228331,
+    "country": "Libya",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "MA",
+    "Latitude": 31.791702,
+    "Longitude": -7.09262,
+    "country": "Morocco",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "MC",
+    "Latitude": 43.750298,
+    "Longitude": 7.412841,
+    "country": "Monaco",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "MD",
+    "Latitude": 47.411631,
+    "Longitude": 28.369885,
+    "country": "Moldova",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "ME",
+    "Latitude": 42.708678,
+    "Longitude": 19.37439,
+    "country": "Montenegro",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "MG",
+    "Latitude": -18.766947,
+    "Longitude": 46.869107,
+    "country": "Madagascar",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "MH",
+    "Latitude": 7.131474,
+    "Longitude": 171.184478,
+    "country": "Marshall Islands",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "MK",
+    "Latitude": 41.608635,
+    "Longitude": 21.745275,
+    "country": "Macedonia [FYROM]",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "ML",
+    "Latitude": 17.570692,
+    "Longitude": -3.996166,
+    "country": "Mali",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "MM",
+    "Latitude": 21.913965,
+    "Longitude": 95.956223,
+    "country": "Myanmar [Burma]",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "MN",
+    "Latitude": 46.862496,
+    "Longitude": 103.846656,
+    "country": "Mongolia",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "MO",
+    "Latitude": 22.198745,
+    "Longitude": 113.543873,
+    "country": "Macau",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "MP",
+    "Latitude": 17.33083,
+    "Longitude": 145.38469,
+    "country": "Northern Mariana Islands",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "MQ",
+    "Latitude": 14.641528,
+    "Longitude": -61.024174,
+    "country": "Martinique",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "MR",
+    "Latitude": 21.00789,
+    "Longitude": -10.940835,
+    "country": "Mauritania",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "MS",
+    "Latitude": 16.742498,
+    "Longitude": -62.187366,
+    "country": "Montserrat",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "MT",
+    "Latitude": 35.937496,
+    "Longitude": 14.375416,
+    "country": "Malta",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "MU",
+    "Latitude": -20.348404,
+    "Longitude": 57.552152,
+    "country": "Mauritius",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "MV",
+    "Latitude": 3.202778,
+    "Longitude": 73.22068,
+    "country": "Maldives",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "MW",
+    "Latitude": -13.254308,
+    "Longitude": 34.301525,
+    "country": "Malawi",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "MX",
+    "Latitude": 23.634501,
+    "Longitude": -102.552784,
+    "country": "Mexico",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "MY",
+    "Latitude": 4.210484,
+    "Longitude": 101.975766,
+    "country": "Malaysia",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "MZ",
+    "Latitude": -18.665695,
+    "Longitude": 35.529562,
+    "country": "Mozambique",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "NA",
+    "Latitude": -22.95764,
+    "Longitude": 18.49041,
+    "country": "Namibia",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "NC",
+    "Latitude": -20.904305,
+    "Longitude": 165.618042,
+    "country": "New Caledonia",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "NE",
+    "Latitude": 17.607789,
+    "Longitude": 8.081666,
+    "country": "Niger",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "NF",
+    "Latitude": -29.040835,
+    "Longitude": 167.954712,
+    "country": "Norfolk Island",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "NG",
+    "Latitude": 9.081999,
+    "Longitude": 8.675277,
+    "country": "Nigeria",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "NI",
+    "Latitude": 12.865416,
+    "Longitude": -85.207229,
+    "country": "Nicaragua",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "NL",
+    "Latitude": 52.132633,
+    "Longitude": 5.291266,
+    "country": "Netherlands",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "NO",
+    "Latitude": 60.472024,
+    "Longitude": 8.468946,
+    "country": "Norway",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "NP",
+    "Latitude": 28.394857,
+    "Longitude": 84.124008,
+    "country": "Nepal",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "NR",
+    "Latitude": -0.522778,
+    "Longitude": 166.931503,
+    "country": "Nauru",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "NU",
+    "Latitude": -19.054445,
+    "Longitude": -169.867233,
+    "country": "Niue",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "NZ",
+    "Latitude": -40.900557,
+    "Longitude": 174.885971,
+    "country": "New Zealand",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "OM",
+    "Latitude": 21.512583,
+    "Longitude": 55.923255,
+    "country": "Oman",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "PA",
+    "Latitude": 8.537981,
+    "Longitude": -80.782127,
+    "country": "Panama",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "PE",
+    "Latitude": -9.189967,
+    "Longitude": -75.015152,
+    "country": "Peru",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "PF",
+    "Latitude": -17.679742,
+    "Longitude": -149.406843,
+    "country": "French Polynesia",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "PG",
+    "Latitude": -6.314993,
+    "Longitude": 143.95555,
+    "country": "Papua New Guinea",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "PH",
+    "Latitude": 12.879721,
+    "Longitude": 121.774017,
+    "country": "Philippines",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "PK",
+    "Latitude": 30.375321,
+    "Longitude": 69.345116,
+    "country": "Pakistan",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "PL",
+    "Latitude": 51.919438,
+    "Longitude": 19.145136,
+    "country": "Poland",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "PM",
+    "Latitude": 46.941936,
+    "Longitude": -56.27111,
+    "country": "Saint Pierre and Miquelon",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "PN",
+    "Latitude": -24.703615,
+    "Longitude": -127.439308,
+    "country": "Pitcairn Islands",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "PR",
+    "Latitude": 18.220833,
+    "Longitude": -66.590149,
+    "country": "Puerto Rico",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "PS",
+    "Latitude": 31.952162,
+    "Longitude": 35.233154,
+    "country": "Palestinian Territories",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "PT",
+    "Latitude": 39.399872,
+    "Longitude": -8.224454,
+    "country": "Portugal",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "PW",
+    "Latitude": 7.51498,
+    "Longitude": 134.58252,
+    "country": "Palau",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "PY",
+    "Latitude": -23.442503,
+    "Longitude": -58.443832,
+    "country": "Paraguay",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "QA",
+    "Latitude": 25.354826,
+    "Longitude": 51.183884,
+    "country": "Qatar",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "RE",
+    "Latitude": -21.115141,
+    "Longitude": 55.536384,
+    "country": "Réunion",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "RO",
+    "Latitude": 45.943161,
+    "Longitude": 24.96676,
+    "country": "Romania",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "RS",
+    "Latitude": 44.016521,
+    "Longitude": 21.005859,
+    "country": "Serbia",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "RU",
+    "Latitude": 61.52401,
+    "Longitude": 105.318756,
+    "country": "Russia",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "RW",
+    "Latitude": -1.940278,
+    "Longitude": 29.873888,
+    "country": "Rwanda",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "SA",
+    "Latitude": 23.885942,
+    "Longitude": 45.079162,
+    "country": "Saudi Arabia",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "SB",
+    "Latitude": -9.64571,
+    "Longitude": 160.156194,
+    "country": "Solomon Islands",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "SC",
+    "Latitude": -4.679574,
+    "Longitude": 55.491977,
+    "country": "Seychelles",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "SD",
+    "Latitude": 12.862807,
+    "Longitude": 30.217636,
+    "country": "Sudan",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "SE",
+    "Latitude": 60.128161,
+    "Longitude": 18.643501,
+    "country": "Sweden",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "SG",
+    "Latitude": 1.352083,
+    "Longitude": 103.819836,
+    "country": "Singapore",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "SH",
+    "Latitude": -24.143474,
+    "Longitude": -10.030696,
+    "country": "Saint Helena",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "SI",
+    "Latitude": 46.151241,
+    "Longitude": 14.995463,
+    "country": "Slovenia",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "SJ",
+    "Latitude": 77.553604,
+    "Longitude": 23.670272,
+    "country": "Svalbard and Jan Mayen",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "SK",
+    "Latitude": 48.669026,
+    "Longitude": 19.699024,
+    "country": "Slovakia",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "SL",
+    "Latitude": 8.460555,
+    "Longitude": -11.779889,
+    "country": "Sierra Leone",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "SM",
+    "Latitude": 43.94236,
+    "Longitude": 12.457777,
+    "country": "San Marino",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "SN",
+    "Latitude": 14.497401,
+    "Longitude": -14.452362,
+    "country": "Senegal",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "SO",
+    "Latitude": 5.152149,
+    "Longitude": 46.199616,
+    "country": "Somalia",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "SR",
+    "Latitude": 3.919305,
+    "Longitude": -56.027783,
+    "country": "Suriname",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "ST",
+    "Latitude": 0.18636,
+    "Longitude": 6.613081,
+    "country": "São Tomé and Príncipe",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "SV",
+    "Latitude": 13.794185,
+    "Longitude": -88.89653,
+    "country": "El Salvador",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "SY",
+    "Latitude": 34.802075,
+    "Longitude": 38.996815,
+    "country": "Syria",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "SZ",
+    "Latitude": -26.522503,
+    "Longitude": 31.465866,
+    "country": "Swaziland",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "TC",
+    "Latitude": 21.694025,
+    "Longitude": -71.797928,
+    "country": "Turks and Caicos Islands",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "TD",
+    "Latitude": 15.454166,
+    "Longitude": 18.732207,
+    "country": "Chad",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "TF",
+    "Latitude": -49.280366,
+    "Longitude": 69.348557,
+    "country": "French Southern Territories",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "TG",
+    "Latitude": 8.619543,
+    "Longitude": 0.824782,
+    "country": "Togo",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "TH",
+    "Latitude": 15.870032,
+    "Longitude": 100.992541,
+    "country": "Thailand",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "TJ",
+    "Latitude": 38.861034,
+    "Longitude": 71.276093,
+    "country": "Tajikistan",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "TK",
+    "Latitude": -8.967363,
+    "Longitude": -171.855881,
+    "country": "Tokelau",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "TL",
+    "Latitude": -8.874217,
+    "Longitude": 125.727539,
+    "country": "Timor-Leste",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "TM",
+    "Latitude": 38.969719,
+    "Longitude": 59.556278,
+    "country": "Turkmenistan",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "TN",
+    "Latitude": 33.886917,
+    "Longitude": 9.537499,
+    "country": "Tunisia",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "TO",
+    "Latitude": -21.178986,
+    "Longitude": -175.198242,
+    "country": "Tonga",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "TR",
+    "Latitude": 38.963745,
+    "Longitude": 35.243322,
+    "country": "Turkey",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "TT",
+    "Latitude": 10.691803,
+    "Longitude": -61.222503,
+    "country": "Trinidad and Tobago",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "TV",
+    "Latitude": -7.109535,
+    "Longitude": 177.64933,
+    "country": "Tuvalu",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "TW",
+    "Latitude": 23.69781,
+    "Longitude": 120.960515,
+    "country": "Taiwan",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "TZ",
+    "Latitude": -6.369028,
+    "Longitude": 34.888822,
+    "country": "Tanzania",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "UA",
+    "Latitude": 48.379433,
+    "Longitude": 31.16558,
+    "country": "Ukraine",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "UG",
+    "Latitude": 1.373333,
+    "Longitude": 32.290275,
+    "country": "Uganda",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "US",
+    "Latitude": 37.09024,
+    "Longitude": -95.712891,
+    "country": "United States",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "UY",
+    "Latitude": -32.522779,
+    "Longitude": -55.765835,
+    "country": "Uruguay",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "UZ",
+    "Latitude": 41.377491,
+    "Longitude": 64.585262,
+    "country": "Uzbekistan",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "VA",
+    "Latitude": 41.902916,
+    "Longitude": 12.453389,
+    "country": "Vatican City",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "VC",
+    "Latitude": 12.984305,
+    "Longitude": -61.287228,
+    "country": "Saint Vincent and the Grenadines",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "VE",
+    "Latitude": 6.42375,
+    "Longitude": -66.58973,
+    "country": "Venezuela",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "VG",
+    "Latitude": 18.420695,
+    "Longitude": -64.639968,
+    "country": "British Virgin Islands",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "VI",
+    "Latitude": 18.335765,
+    "Longitude": -64.896335,
+    "country": "U.S. Virgin Islands",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "VN",
+    "Latitude": 14.058324,
+    "Longitude": 108.277199,
+    "country": "Vietnam",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "VU",
+    "Latitude": -15.376706,
+    "Longitude": 166.959158,
+    "country": "Vanuatu",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "WF",
+    "Latitude": -13.768752,
+    "Longitude": -177.156097,
+    "country": "Wallis and Futuna",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "WS",
+    "Latitude": -13.759029,
+    "Longitude": -172.104629,
+    "country": "Samoa",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "YE",
+    "Latitude": 15.552727,
+    "Longitude": 48.516388,
+    "country": "Yemen",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "YT",
+    "Latitude": -12.8275,
+    "Longitude": 45.166244,
+    "country": "Mayotte",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "ZA",
+    "Latitude": -30.559482,
+    "Longitude": 22.937506,
+    "country": "South Africa",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "ZM",
+    "Latitude": -13.133897,
+    "Longitude": 27.849332,
+    "country": "Zambia",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  },
+  {
+    "Code": "ZW",
+    "Latitude": -19.015438,
+    "Longitude": 29.154857,
+    "country": "Zimbabwe",
+    "usa_state_code": "",
+    "usa_state_latitude": "",
+    "usa_state_longitude": "",
+    "usa_state": ""
+  }
+]

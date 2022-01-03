@@ -47,30 +47,30 @@ namespace MammaNatale
             // ListaBambiniStato
             // 
             this.ListaBambiniStato.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.ListaBambiniStato.Location = new System.Drawing.Point(517, 10);
-            this.ListaBambiniStato.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.ListaBambiniStato.Location = new System.Drawing.Point(557, 11);
+            this.ListaBambiniStato.Margin = new System.Windows.Forms.Padding(2);
             this.ListaBambiniStato.Name = "ListaBambiniStato";
             this.ListaBambiniStato.RowHeadersWidth = 51;
             this.ListaBambiniStato.RowTemplate.Height = 24;
-            this.ListaBambiniStato.Size = new System.Drawing.Size(274, 180);
+            this.ListaBambiniStato.Size = new System.Drawing.Size(433, 213);
             this.ListaBambiniStato.TabIndex = 0;
             // 
             // StatoAttuale
             // 
             this.StatoAttuale.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.StatoAttuale.Location = new System.Drawing.Point(517, 259);
-            this.StatoAttuale.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.StatoAttuale.Location = new System.Drawing.Point(557, 293);
+            this.StatoAttuale.Margin = new System.Windows.Forms.Padding(2);
             this.StatoAttuale.Name = "StatoAttuale";
             this.StatoAttuale.RowHeadersWidth = 51;
             this.StatoAttuale.RowTemplate.Height = 24;
-            this.StatoAttuale.Size = new System.Drawing.Size(274, 181);
+            this.StatoAttuale.Size = new System.Drawing.Size(433, 192);
             this.StatoAttuale.TabIndex = 1;
             // 
             // axWindowsMediaPlayer1
             // 
             this.axWindowsMediaPlayer1.Enabled = true;
             this.axWindowsMediaPlayer1.Location = new System.Drawing.Point(12, 12);
-            this.axWindowsMediaPlayer1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.axWindowsMediaPlayer1.Margin = new System.Windows.Forms.Padding(2);
             this.axWindowsMediaPlayer1.Name = "axWindowsMediaPlayer1";
             this.axWindowsMediaPlayer1.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axWindowsMediaPlayer1.OcxState")));
             this.axWindowsMediaPlayer1.Size = new System.Drawing.Size(366, 222);
@@ -81,7 +81,7 @@ namespace MammaNatale
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.Image = global::MammaNatale.Properties.Resources.play_button;
             this.pictureBox1.Location = new System.Drawing.Point(358, 150);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(75, 41);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -94,7 +94,7 @@ namespace MammaNatale
             this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox2.Image = global::MammaNatale.Properties.Resources.pause__1_;
             this.pictureBox2.Location = new System.Drawing.Point(437, 150);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(75, 41);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -107,7 +107,7 @@ namespace MammaNatale
             this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox3.Image = global::MammaNatale.Properties.Resources.stop;
             this.pictureBox3.Location = new System.Drawing.Point(288, 150);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(75, 41);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -120,7 +120,7 @@ namespace MammaNatale
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::MammaNatale.Properties.Resources._1;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1001, 496);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);

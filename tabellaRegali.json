@@ -1,0 +1,454 @@
+﻿[
+    {
+        "Regalo": "Tecnologia",
+        "Descrizione": "Computer da gaming"
+    },
+    {
+        "Regalo": "Tecnologia",
+        "Descrizione": "Cellulare di ultima generazione pazzo sgravato"
+    },
+    {
+        "Regalo": "Tecnologia",
+        "Descrizione": "Tastiera e mouse indiani"
+    },
+    {
+        "Regalo": "Tecnologia",
+        "Descrizione": "Pacchetto Office"
+    },
+    {
+        "Regalo": "Tecnologia",
+        "Descrizione": "Monitor da grafico "
+    },
+    {
+        "Regalo": "Musica",
+        "Descrizione": "Chitarra Elettrica Gibson Les Pa"
+    },
+    {
+        "Regalo": "Musica",
+        "Descrizione": "Chitarra Elettrica Fen Stra"
+    },
+    {
+        "Regalo": "Musica",
+        "Descrizione": "Chitarra Elettrica Ibanlez"
+    },
+    {
+        "Regalo": "Musica",
+        "Descrizione": "Tastiera Yamahu"
+    },
+    {
+        "Regalo": "Musica",
+        "Descrizione": "Impianto audio Notes"
+    },
+    {
+        "Regalo": "Calzature",
+        "Descrizione": "Scarpe Mike"
+    },
+    {
+        "Regalo": "Calzature",
+        "Descrizione": "Scarpe Numa"
+    },
+    {
+        "Regalo": "Calzature",
+        "Descrizione": "Scarpe Canguro"
+    },
+    {
+        "Regalo": "Calzature",
+        "Descrizione": "Scarpe Abidas"
+    },
+    {
+        "Regalo": "Cucina",
+        "Descrizione": "Pentole Inox"
+    },
+    {
+        "Regalo": "Cucina",
+        "Descrizione": "Posate in oro"
+    },
+    {
+        "Regalo": "Cucina",
+        "Descrizione": "Bicchieri di Murano"
+    },
+    {
+        "Regalo": "Cucina",
+        "Descrizione": "Tovaglia riamata a mano"
+    },
+    {
+        "Regalo": "Utensili",
+        "Descrizione": "Set di cacciaviti Trapan"
+    },
+    {
+        "Regalo": "Utensili",
+        "Descrizione": "Sega elettrica SEG"
+    },
+    {
+        "Regalo": "Giocattoli",
+        "Descrizione": "Unicorno Peluche"
+    },
+    {
+        "Regalo": "Giocattoli",
+        "Descrizione": "Sirenetta Peluche"
+    },
+    {
+        "Regalo": "Giocattoli",
+        "Descrizione": "Camioncino Telecomandato"
+    },
+    {
+        "Regalo": "Giocattoli",
+        "Descrizione": "Macchinina Telecomandata"
+    },
+    {
+        "Regalo": "Giocattoli",
+        "Descrizione": "Bambolotto "
+    },
+    {
+        "Regalo": "Giocattoli",
+        "Descrizione": "Barbie "
+    },
+    {
+        "Regalo": "Giocattoli",
+        "Descrizione": "Ken"
+    },
+    {
+        "Regalo": "Giocattoli",
+        "Descrizione": "Casetta Lego"
+    },
+    {
+        "Regalo": "Giocattoli",
+        "Descrizione": "Monopoly"
+    },
+    {
+        "Regalo": "Giocattoli",
+        "Descrizione": "Risiko"
+    },
+    {
+        "Regalo": "Giocattoli",
+        "Descrizione": "Dama"
+    },
+    {
+        "Regalo": "Giocattoli",
+        "Descrizione": "Scacchi"
+    },
+    {
+        "Regalo": "Giocattoli",
+        "Descrizione": "Il gioco dell oca "
+    },
+    {
+        "Regalo": "Giocattoli",
+        "Descrizione": "Puzzle 36 pezzi"
+    },
+    {
+        "Regalo": "Giocattoli",
+        "Descrizione": "Puzzle 48 pezzi"
+    },
+    {
+        "Regalo": "Giocattoli",
+        "Descrizione": "Puzzle 121 pezzi"
+    },
+    {
+        "Regalo": "Giocattoli",
+        "Descrizione": "Puzzle 500 pezzi"
+    },
+    {
+        "Regalo": "Giocattoli",
+        "Descrizione": "Puzzle 1000 pezzi"
+    },
+    {
+        "Regalo": "Giocattoli",
+        "Descrizione": "Puzzle 2000 pezzi"
+    },
+    {
+        "Regalo": "Giocattoli",
+        "Descrizione": "Indovina chi"
+    },
+    {
+        "Regalo": "Giocattoli",
+        "Descrizione": "L''enigmista"
+    },
+    {
+        "Regalo": "Giocattoli",
+        "Descrizione": "Il Labirinto"
+    },
+    {
+        "Regalo": "Giocattoli",
+        "Descrizione": "Taboo"
+    },
+    {
+        "Regalo": "Giocattoli",
+        "Descrizione": "Cluedo"
+    },
+    {
+        "Regalo": "Giocattoli",
+        "Descrizione": "Scarabeo"
+    },
+    {
+        "Regalo": "Giocattoli",
+        "Descrizione": "Jumanji"
+    },
+    {
+        "Regalo": "Giocattoli",
+        "Descrizione": "Uno"
+    },
+    {
+        "Regalo": "Giocattoli",
+        "Descrizione": "L''allegro chirurgo"
+    },
+    {
+        "Regalo": "Giocattoli",
+        "Descrizione": "Il gioco della vita"
+    },
+    {
+        "Regalo": "Giocattoli",
+        "Descrizione": "Battaglia Navale"
+    },
+    {
+        "Regalo": "Giocattoli",
+        "Descrizione": "Passa La Bomba"
+    },
+    {
+        "Regalo": "Giocattoli",
+        "Descrizione": "Jenga"
+    },
+    {
+        "Regalo": "Giocattoli",
+        "Descrizione": "Hive"
+    },
+    {
+        "Regalo": "Giocattoli",
+        "Descrizione": "Terraforming Mars"
+    },
+    {
+        "Regalo": "Arte",
+        "Descrizione": "Tempere"
+    },
+    {
+        "Regalo": "Arte",
+        "Descrizione": "Acquerelli"
+    },
+    {
+        "Regalo": "Arte",
+        "Descrizione": "Tela 50x50"
+    },
+    {
+        "Regalo": "Arte",
+        "Descrizione": "Tela 80x120"
+    },
+    {
+        "Regalo": "Arte",
+        "Descrizione": "Tela 100x60"
+    },
+    {
+        "Regalo": "Arte",
+        "Descrizione": "Tela 200x120"
+    },
+    {
+        "Regalo": "Dolciumi",
+        "Descrizione": "Caramelle alla frutta"
+    },
+    {
+        "Regalo": "Dolciumi",
+        "Descrizione": "Liquirizie"
+    },
+    {
+        "Regalo": "Dolciumi",
+        "Descrizione": "Caramelle alla menta"
+    },
+    {
+        "Regalo": "Dolciumi",
+        "Descrizione": "Caramelle al caffè"
+    },
+    {
+        "Regalo": "Dolciumi",
+        "Descrizione": "Caramelle al Mou"
+    },
+    {
+        "Regalo": "Console",
+        "Descrizione": "Wii"
+    },
+    {
+        "Regalo": "Console",
+        "Descrizione": "Nintendo Switch"
+    },
+    {
+        "Regalo": "Console",
+        "Descrizione": "Nintendo 3DS"
+    },
+    {
+        "Regalo": "Console",
+        "Descrizione": "Play Station 4"
+    },
+    {
+        "Regalo": "Console",
+        "Descrizione": "Play Station 5"
+    },
+    {
+        "Regalo": "Console",
+        "Descrizione": "Wii U"
+    },
+    {
+        "Regalo": "Console",
+        "Descrizione": "Xbox"
+    },
+    {
+        "Regalo": "Console",
+        "Descrizione": "Xbox 360"
+    },
+    {
+        "Regalo": "Videogiochi",
+        "Descrizione": "Monster Hunter "
+    },
+    {
+        "Regalo": "Videogiochi",
+        "Descrizione": "Wii Sport Resort"
+    },
+    {
+        "Regalo": "Videogiochi",
+        "Descrizione": "Wii Sport "
+    },
+    {
+        "Regalo": "Videogiochi",
+        "Descrizione": "GTA "
+    },
+    {
+        "Regalo": "Videogiochi",
+        "Descrizione": "The Withcer"
+    },
+    {
+        "Regalo": "Videogiochi",
+        "Descrizione": "Fifa"
+    },
+    {
+        "Regalo": "Videogiochi",
+        "Descrizione": "Spider-Man"
+    },
+    {
+        "Regalo": "Videogiochi",
+        "Descrizione": "The Last of Us"
+    },
+    {
+        "Regalo": "Videogiochi",
+        "Descrizione": "God of War"
+    },
+    {
+        "Regalo": "Videogiochi",
+        "Descrizione": "Assassin''s Creed"
+    },
+    {
+        "Regalo": "Videogiochi",
+        "Descrizione": "Far Cry"
+    },
+    {
+        "Regalo": "Videogiochi",
+        "Descrizione": "Call of Duty"
+    },
+    {
+        "Regalo": "Videogiochi",
+        "Descrizione": "Resident Evil"
+    },
+    {
+        "Regalo": "Videogiochi",
+        "Descrizione": "Battelfield"
+    },
+    {
+        "Regalo": "Videogiochi",
+        "Descrizione": "Silent Hull"
+    },
+    {
+        "Regalo": "Videogiochi",
+        "Descrizione": "Crash Bandicoot"
+    },
+    {
+        "Regalo": "Videogiochi",
+        "Descrizione": "Marvel''s Avengers"
+    },
+    {
+        "Regalo": "Videogiochi",
+        "Descrizione": "Fallout"
+    },
+    {
+        "Regalo": "Videogiochi",
+        "Descrizione": "Minecraft"
+    },
+    {
+        "Regalo": "Videogiochi",
+        "Descrizione": "Sonic"
+    },
+    {
+        "Regalo": "Videogiochi",
+        "Descrizione": "Forza Horizon "
+    },
+    {
+        "Regalo": "Videogiochi",
+        "Descrizione": "Halo"
+    },
+    {
+        "Regalo": "Videogiochi",
+        "Descrizione": "Mortal Kombat"
+    },
+    {
+        "Regalo": "Videogiochi",
+        "Descrizione": "Red Dead Redemption"
+    },
+    {
+        "Regalo": "Videogiochi",
+        "Descrizione": "World of tanks"
+    },
+    {
+        "Regalo": "Videogiochi",
+        "Descrizione": "Animal Crossing"
+    },
+    {
+        "Regalo": "Videogiochi",
+        "Descrizione": "Mario Kart"
+    },
+    {
+        "Regalo": "Videogiochi",
+        "Descrizione": "The legend of Zelda"
+    },
+    {
+        "Regalo": "Videogiochi",
+        "Descrizione": "Pokemon"
+    },
+    {
+        "Regalo": "Videogiochi",
+        "Descrizione": "Super Mario"
+    },
+    {
+        "Regalo": "Videogiochi",
+        "Descrizione": "Luigi''s Mansion"
+    },
+    {
+        "Regalo": "Videogiochi",
+        "Descrizione": "Fortnite"
+    },
+    {
+        "Regalo": "Videogiochi",
+        "Descrizione": "Just Dance"
+    },
+    {
+        "Regalo": "Videogiochi",
+        "Descrizione": "WWE"
+    },
+    {
+        "Regalo": "Videogiochi",
+        "Descrizione": "Tomodachi Life"
+    },
+    {
+        "Regalo": "Videogiochi",
+        "Descrizione": "Donkey Kong Country Returns"
+    },
+    {
+        "Regalo": "Videogiochi",
+        "Descrizione": "Final Fantasy"
+    },
+    {
+        "Regalo": "Videogiochi",
+        "Descrizione": "Kirby"
+    },
+    {
+        "Regalo": "Peluches",
+        "Descrizione": "Orso polare"
+    },
+    {
+        "Regalo": "Carbone",
+        "Descrizione": "Carbone fossile"
+    }
+]
