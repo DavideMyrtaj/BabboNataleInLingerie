@@ -56,19 +56,33 @@ ORDER BY BAMBINO.ID ";
         /// <param name="TimeZone"></param>
         /// <param name="ordine"></param>
         /// <returns></returns>
-        public List<Nazione> ListaNazioniFusoOrarioOrdinate(int TimeZone, string ordine)
+        public DataTable ListaNazioniFusoOrarioOrdinate(int TimeZone, ref List<Nazione>Nazioni)
         {
-            List<Nazione> Nazioni = new List<Nazione>();
-            cmd = new SqlCommand($"SELECT ora.NAZIONE,ora.TIME_ZONE, NAZIONE.NOME,NAZIONE.LATITUDINE  FROM FUSO_ORARIO as ora inner join NAZIONE on ora.NAZIONE = NAZIONE.CODICE AND ora.TIME_ZONE = '{TimeZone}' ORDER BY NAZIONE.LATITUDINE {ordine}", con);
-            leggi = cmd.ExecuteReader();
-            while (leggi.Read())
+            DataTable tabella = new DataTable();
+            Nazioni = new List<Nazione>();
+            string ordine;
+            if ((TimeZone/60)%2==0)
             {
-                Nazioni.Add(new Nazione { Codice=leggi["NAZIONE"].ToString(),Nome=leggi["NOME"].ToString()});
+                ordine = "DESC";//se fuso orario pari (+12,+10...-8,-10) allora ordina per latitudine decrescente (dall'alto verso il basso)
             }
+            else
+            {
+                ordine = "";//se fuso orario dispari (+11,+19...-9,-11) allora ordina per latitudine crescnte di default(dal basso verso l'alto)
+            }
+            cmd = new SqlCommand($"SELECT ora.NAZIONE, NAZIONE.NOME,NAZIONE.LATITUDINE  FROM FUSO_ORARIO as ora inner join NAZIONE on ora.NAZIONE = NAZIONE.CODICE AND ora.TIME_ZONE = '{TimeZone}' ORDER BY NAZIONE.LATITUDINE {ordine}", con);
+            leggi = cmd.ExecuteReader();
+            tabella.Load(leggi);
+            foreach (DataRow item in tabella.Rows)
+            {
+                Nazioni.Add(new Nazione { Codice = item["NAZIONE"].ToString(), Nome = item["NOME"].ToString(), Latitudine = item["LATITUDINE"].ToString() });
+            }
+            
+                
+            
             leggi.Close();
-            return Nazioni;
+            return tabella;
         }
-
+        
         public List<int> ListaFusiOrariEsistenti()
         {
             List<int> lista = new List<int>();
@@ -95,5 +109,6 @@ ORDER BY BAMBINO.ID ";
     {
         public string Codice;
         public string Nome;
+        public string Latitudine;
     }
 }
