@@ -15,7 +15,7 @@ namespace MammaNatale
         modello Modello;
         List<int> FusiOrariEsistenti = new List<int>();
         List<Nazione> Nazioni = new List<Nazione>();
-        List<Bambino> Bambino = new List<Bambino>();
+        
       
         int _fusoOrarioIndex = -1;
         int _statoAttualeFusoOrarioIndex = 0;
@@ -32,7 +32,8 @@ namespace MammaNatale
                 if (value == FusiOrariEsistenti.Count)
                 {
                     timer1.Stop();
-                    MessageBox.Show( "Hai consegnato i regali a tutti i bambini del mondo\nOra puoi chiudere il programma", "COMPLIMENTI!!!", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    MessageBox.Show( "Hai consegnato i regali a tutti i bambini del mondo\nOra il programma verrà chiuso", "COMPLIMENTI!!!", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    this.Close();
                 }
                 else
                 {

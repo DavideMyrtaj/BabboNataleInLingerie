@@ -38,12 +38,12 @@ namespace MammaNatale
             this.oraAttuale = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.DettagliStato = new System.Windows.Forms.GroupBox();
-            this.DnomeStato = new System.Windows.Forms.Label();
-            this.DCodice = new System.Windows.Forms.Label();
+            this.UTC = new System.Windows.Forms.Label();
             this.DLatitudine = new System.Windows.Forms.Label();
+            this.DCodice = new System.Windows.Forms.Label();
+            this.DnomeStato = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.UTC = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.ListaBambiniStato)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.StatiDelFusoOrario)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.axWindowsMediaPlayer1)).BeginInit();
@@ -135,15 +135,25 @@ namespace MammaNatale
             this.DettagliStato.TabStop = false;
             this.DettagliStato.Text = "DETTAGLI STATO";
             // 
-            // DnomeStato
+            // UTC
             // 
-            this.DnomeStato.AutoSize = true;
-            this.DnomeStato.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.DnomeStato.Location = new System.Drawing.Point(14, 28);
-            this.DnomeStato.Name = "DnomeStato";
-            this.DnomeStato.Size = new System.Drawing.Size(91, 24);
-            this.DnomeStato.TabIndex = 0;
-            this.DnomeStato.Text = "STATO: ";
+            this.UTC.AutoSize = true;
+            this.UTC.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.UTC.Location = new System.Drawing.Point(14, 100);
+            this.UTC.Name = "UTC";
+            this.UTC.Size = new System.Drawing.Size(157, 24);
+            this.UTC.TabIndex = 3;
+            this.UTC.Text = "FUSO ORARIO:";
+            // 
+            // DLatitudine
+            // 
+            this.DLatitudine.AutoSize = true;
+            this.DLatitudine.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DLatitudine.Location = new System.Drawing.Point(14, 76);
+            this.DLatitudine.Name = "DLatitudine";
+            this.DLatitudine.Size = new System.Drawing.Size(134, 24);
+            this.DLatitudine.TabIndex = 2;
+            this.DLatitudine.Text = "LATITUDINE:";
             // 
             // DCodice
             // 
@@ -155,15 +165,15 @@ namespace MammaNatale
             this.DCodice.TabIndex = 1;
             this.DCodice.Text = "CODICE:";
             // 
-            // DLatitudine
+            // DnomeStato
             // 
-            this.DLatitudine.AutoSize = true;
-            this.DLatitudine.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.DLatitudine.Location = new System.Drawing.Point(14, 76);
-            this.DLatitudine.Name = "DLatitudine";
-            this.DLatitudine.Size = new System.Drawing.Size(134, 24);
-            this.DLatitudine.TabIndex = 2;
-            this.DLatitudine.Text = "LATITUDINE:";
+            this.DnomeStato.AutoSize = true;
+            this.DnomeStato.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DnomeStato.Location = new System.Drawing.Point(14, 28);
+            this.DnomeStato.Name = "DnomeStato";
+            this.DnomeStato.Size = new System.Drawing.Size(91, 24);
+            this.DnomeStato.TabIndex = 0;
+            this.DnomeStato.Text = "STATO: ";
             // 
             // label1
             // 
@@ -188,16 +198,6 @@ namespace MammaNatale
             this.label2.Size = new System.Drawing.Size(361, 20);
             this.label2.TabIndex = 8;
             this.label2.Text = "LISTA DEI BAMBINI DEL SINGOLO STATO";
-            // 
-            // UTC
-            // 
-            this.UTC.AutoSize = true;
-            this.UTC.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.UTC.Location = new System.Drawing.Point(14, 100);
-            this.UTC.Name = "UTC";
-            this.UTC.Size = new System.Drawing.Size(157, 24);
-            this.UTC.TabIndex = 3;
-            this.UTC.Text = "FUSO ORARIO:";
             // 
             // Form1
             // 

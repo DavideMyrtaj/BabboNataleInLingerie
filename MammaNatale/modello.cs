@@ -35,7 +35,7 @@ namespace MammaNatale
         /// <returns></returns>
         public DataTable BambiniNazioneConRegali(string Nazione)
         {
-            List<Bambino> lista = new List<Bambino>();
+            
             string query = $@"SELECT BAMBINO.ID, BAMBINO.NOME ,BAMBINO.COGNOME,BAMBINO_REGALO.ID_REGALO,REGALO.TIPO ,REGALO.DESCRIZIONE  FROM BAMBINO  
 inner join BAMBINO_REGALO on BAMBINO.ID = BAMBINO_REGALO.ID_BAMBINO
 INNER JOIN REGALO on BAMBINO_REGALO.ID_REGALO = REGALO.ID
@@ -97,14 +97,7 @@ ORDER BY BAMBINO.ID ";
         }
 
     }
-    class Bambino
-    {
-        public string Nome;
-        public string Cognome;
-        public DateTime Data_Nascita;
-        public int Bonta;
-        public string Nazione;
-    }
+   
     class Nazione
     {
         public string Codice;
