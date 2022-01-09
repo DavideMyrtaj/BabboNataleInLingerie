@@ -13,7 +13,7 @@ namespace MammaNatale
     public partial class Form1 : Form
     {
         modello Modello;
-        List<int> FusiOrariEsistenti = new List<int>();
+        public List<int> FusiOrariEsistenti = new List<int>();
         List<Nazione> Nazioni = new List<Nazione>();
         
       
@@ -129,6 +129,7 @@ namespace MammaNatale
         {
             
             statoAttualeFusoOrarioIndex++;
+            
         }
     }
 }

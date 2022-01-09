@@ -30,6 +30,7 @@ namespace MammaNatale
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.ListaBambiniStato = new System.Windows.Forms.DataGridView();
             this.StatiDelFusoOrario = new System.Windows.Forms.DataGridView();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
@@ -43,6 +44,8 @@ namespace MammaNatale
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.ListaBambiniStato)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.StatiDelFusoOrario)).BeginInit();
             this.DettagliStato.SuspendLayout();
@@ -53,7 +56,7 @@ namespace MammaNatale
             // 
             this.ListaBambiniStato.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.ListaBambiniStato.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.ListaBambiniStato.Location = new System.Drawing.Point(677, 364);
+            this.ListaBambiniStato.Location = new System.Drawing.Point(677, 411);
             this.ListaBambiniStato.Margin = new System.Windows.Forms.Padding(2);
             this.ListaBambiniStato.Name = "ListaBambiniStato";
             this.ListaBambiniStato.RowHeadersVisible = false;
@@ -91,7 +94,7 @@ namespace MammaNatale
             this.oraAttuale.AutoSize = true;
             this.oraAttuale.BackColor = System.Drawing.Color.Transparent;
             this.oraAttuale.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.oraAttuale.Location = new System.Drawing.Point(583, 211);
+            this.oraAttuale.Location = new System.Drawing.Point(583, 230);
             this.oraAttuale.Margin = new System.Windows.Forms.Padding(0);
             this.oraAttuale.Name = "oraAttuale";
             this.oraAttuale.Size = new System.Drawing.Size(103, 37);
@@ -106,7 +109,7 @@ namespace MammaNatale
             this.button1.BackgroundImage = global::MammaNatale.Properties.Resources.play_button;
             this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Location = new System.Drawing.Point(583, 251);
+            this.button1.Location = new System.Drawing.Point(583, 270);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(103, 58);
             this.button1.TabIndex = 5;
@@ -121,7 +124,7 @@ namespace MammaNatale
             this.DettagliStato.Controls.Add(this.DLatitudine);
             this.DettagliStato.Controls.Add(this.DCodice);
             this.DettagliStato.Controls.Add(this.DnomeStato);
-            this.DettagliStato.Location = new System.Drawing.Point(12, 364);
+            this.DettagliStato.Location = new System.Drawing.Point(12, 411);
             this.DettagliStato.Name = "DettagliStato";
             this.DettagliStato.Size = new System.Drawing.Size(390, 144);
             this.DettagliStato.TabIndex = 6;
@@ -186,7 +189,7 @@ namespace MammaNatale
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(673, 342);
+            this.label2.Location = new System.Drawing.Point(673, 389);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(361, 20);
             this.label2.TabIndex = 8;
@@ -196,19 +199,44 @@ namespace MammaNatale
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.InitialImage = null;
-            this.pictureBox1.Location = new System.Drawing.Point(12, 18);
+            this.pictureBox1.Location = new System.Drawing.Point(12, 32);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(549, 344);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 9;
             this.pictureBox1.TabStop = false;
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.Transparent;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(12, 9);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(222, 20);
+            this.label3.TabIndex = 10;
+            this.label3.Text = "CHRISTMAS NAVIGATOR";
+            // 
+            // label4
+            // 
+            this.label4.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.Transparent;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(573, 213);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(121, 20);
+            this.label4.TabIndex = 11;
+            this.label4.Text = "ORA LOCALE";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::MammaNatale.Properties.Resources._1;
-            this.ClientSize = new System.Drawing.Size(1204, 575);
+            this.ClientSize = new System.Drawing.Size(1204, 613);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -217,7 +245,8 @@ namespace MammaNatale
             this.Controls.Add(this.oraAttuale);
             this.Controls.Add(this.StatiDelFusoOrario);
             this.Controls.Add(this.ListaBambiniStato);
-            this.MinimumSize = new System.Drawing.Size(1220, 614);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MinimumSize = new System.Drawing.Size(1220, 652);
             this.Name = "Form1";
             this.Text = "Babbo Natale";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -246,6 +275,8 @@ namespace MammaNatale
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label UTC;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
     }
 }
 
