@@ -30,10 +30,8 @@ namespace MammaNatale
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.ListaBambiniStato = new System.Windows.Forms.DataGridView();
             this.StatiDelFusoOrario = new System.Windows.Forms.DataGridView();
-            this.axWindowsMediaPlayer1 = new AxWMPLib.AxWindowsMediaPlayer();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.oraAttuale = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
@@ -44,22 +42,25 @@ namespace MammaNatale
             this.DnomeStato = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.ListaBambiniStato)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.StatiDelFusoOrario)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.axWindowsMediaPlayer1)).BeginInit();
             this.DettagliStato.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // ListaBambiniStato
             // 
             this.ListaBambiniStato.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.ListaBambiniStato.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.ListaBambiniStato.Location = new System.Drawing.Point(821, 364);
+            this.ListaBambiniStato.Location = new System.Drawing.Point(677, 364);
             this.ListaBambiniStato.Margin = new System.Windows.Forms.Padding(2);
             this.ListaBambiniStato.Name = "ListaBambiniStato";
+            this.ListaBambiniStato.RowHeadersVisible = false;
             this.ListaBambiniStato.RowHeadersWidth = 51;
             this.ListaBambiniStato.RowTemplate.Height = 24;
-            this.ListaBambiniStato.Size = new System.Drawing.Size(372, 200);
+            this.ListaBambiniStato.RowTemplate.ReadOnly = true;
+            this.ListaBambiniStato.Size = new System.Drawing.Size(516, 200);
             this.ListaBambiniStato.TabIndex = 0;
             // 
             // StatiDelFusoOrario
@@ -68,24 +69,16 @@ namespace MammaNatale
             this.StatiDelFusoOrario.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.StatiDelFusoOrario.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.ColumnHeader;
             this.StatiDelFusoOrario.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.StatiDelFusoOrario.Location = new System.Drawing.Point(881, 32);
+            this.StatiDelFusoOrario.Location = new System.Drawing.Point(929, 32);
             this.StatiDelFusoOrario.Margin = new System.Windows.Forms.Padding(2);
             this.StatiDelFusoOrario.Name = "StatiDelFusoOrario";
             this.StatiDelFusoOrario.ReadOnly = true;
+            this.StatiDelFusoOrario.RowHeadersVisible = false;
             this.StatiDelFusoOrario.RowHeadersWidth = 51;
             this.StatiDelFusoOrario.RowTemplate.Height = 24;
-            this.StatiDelFusoOrario.Size = new System.Drawing.Size(312, 192);
+            this.StatiDelFusoOrario.RowTemplate.ReadOnly = true;
+            this.StatiDelFusoOrario.Size = new System.Drawing.Size(264, 225);
             this.StatiDelFusoOrario.TabIndex = 1;
-            // 
-            // axWindowsMediaPlayer1
-            // 
-            this.axWindowsMediaPlayer1.Enabled = true;
-            this.axWindowsMediaPlayer1.Location = new System.Drawing.Point(2, 6);
-            this.axWindowsMediaPlayer1.Margin = new System.Windows.Forms.Padding(2);
-            this.axWindowsMediaPlayer1.Name = "axWindowsMediaPlayer1";
-            this.axWindowsMediaPlayer1.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axWindowsMediaPlayer1.OcxState")));
-            this.axWindowsMediaPlayer1.Size = new System.Drawing.Size(320, 136);
-            this.axWindowsMediaPlayer1.TabIndex = 2;
             // 
             // timer1
             // 
@@ -98,7 +91,7 @@ namespace MammaNatale
             this.oraAttuale.AutoSize = true;
             this.oraAttuale.BackColor = System.Drawing.Color.Transparent;
             this.oraAttuale.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.oraAttuale.Location = new System.Drawing.Point(522, 200);
+            this.oraAttuale.Location = new System.Drawing.Point(583, 211);
             this.oraAttuale.Margin = new System.Windows.Forms.Padding(0);
             this.oraAttuale.Name = "oraAttuale";
             this.oraAttuale.Size = new System.Drawing.Size(103, 37);
@@ -113,7 +106,7 @@ namespace MammaNatale
             this.button1.BackgroundImage = global::MammaNatale.Properties.Resources.play_button;
             this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Location = new System.Drawing.Point(522, 240);
+            this.button1.Location = new System.Drawing.Point(583, 251);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(103, 58);
             this.button1.TabIndex = 5;
@@ -130,7 +123,7 @@ namespace MammaNatale
             this.DettagliStato.Controls.Add(this.DnomeStato);
             this.DettagliStato.Location = new System.Drawing.Point(12, 364);
             this.DettagliStato.Name = "DettagliStato";
-            this.DettagliStato.Size = new System.Drawing.Size(323, 144);
+            this.DettagliStato.Size = new System.Drawing.Size(390, 144);
             this.DettagliStato.TabIndex = 6;
             this.DettagliStato.TabStop = false;
             this.DettagliStato.Text = "DETTAGLI STATO";
@@ -181,7 +174,7 @@ namespace MammaNatale
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(877, 6);
+            this.label1.Location = new System.Drawing.Point(925, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(192, 24);
             this.label1.TabIndex = 7;
@@ -193,11 +186,22 @@ namespace MammaNatale
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(817, 342);
+            this.label2.Location = new System.Drawing.Point(673, 342);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(361, 20);
             this.label2.TabIndex = 8;
             this.label2.Text = "LISTA DEI BAMBINI DEL SINGOLO STATO";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox1.InitialImage = null;
+            this.pictureBox1.Location = new System.Drawing.Point(12, 18);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(549, 344);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 9;
+            this.pictureBox1.TabStop = false;
             // 
             // Form1
             // 
@@ -205,22 +209,23 @@ namespace MammaNatale
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::MammaNatale.Properties.Resources._1;
             this.ClientSize = new System.Drawing.Size(1204, 575);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.DettagliStato);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.oraAttuale);
-            this.Controls.Add(this.axWindowsMediaPlayer1);
             this.Controls.Add(this.StatiDelFusoOrario);
             this.Controls.Add(this.ListaBambiniStato);
+            this.MinimumSize = new System.Drawing.Size(1220, 614);
             this.Name = "Form1";
             this.Text = "Babbo Natale";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.ListaBambiniStato)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.StatiDelFusoOrario)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.axWindowsMediaPlayer1)).EndInit();
             this.DettagliStato.ResumeLayout(false);
             this.DettagliStato.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -230,7 +235,6 @@ namespace MammaNatale
 
         private System.Windows.Forms.DataGridView ListaBambiniStato;
         private System.Windows.Forms.DataGridView StatiDelFusoOrario;
-        private AxWMPLib.AxWindowsMediaPlayer axWindowsMediaPlayer1;
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.Label oraAttuale;
         private System.Windows.Forms.Button button1;
@@ -241,6 +245,7 @@ namespace MammaNatale
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label UTC;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 

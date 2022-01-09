@@ -38,6 +38,7 @@ namespace MammaNatale
                 else
                 {
                     _fusoOrarioIndex = value;
+                    pictureBox1.Image = new Bitmap($"FusIOrari\\{_fusoOrarioIndex}.JPG");
                     StatiDelFusoOrario.DataSource = Modello.ListaNazioniFusoOrarioOrdinate(FusiOrariEsistenti[_fusoOrarioIndex],ref Nazioni);
                 }
             }
